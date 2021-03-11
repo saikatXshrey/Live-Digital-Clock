@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./banner.jpg) center/cover fixed no-repeat;
+    min-height: 100vh;
+    min-width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.clock_container
+{
+    color: rgb(231, 188, 45);
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    font-family: 'Langar', cursive;
+    text-align: center;
+    margin-top: 5rem;
+    height: 10rem;
+    width: 60%;
+    border: 3.5px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 40px black;
+    font-size: 4rem;
+    text-shadow: 1px 1.5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .Btn{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40%;
+    min-height: 3rem;
+}
+.tf,.non_tf{
+    font-size:2rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(189, 165, 165);
+} */
